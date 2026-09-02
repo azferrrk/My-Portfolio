@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About & Skills</title>
+    <style>
+      /* BODY */
+      body {
+        background-color: whitesmoke;
+        margin: 0 auto;
+        color: slategrey;
+      }
+      /* CONTAINER */
+      .container {
+        margin: 30px;
+        background-color: white;
+        max-width: 900px;
+        margin: 0% auto;
+        padding: 20px 30px 40px;
+      }
+      /* NAVBAR */
+      div.bar {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        border: solid;
+        border-radius: 15px;
+        border-color: rgb(44, 62, 80);
+        background-color: rgb(44, 62, 80);
+        margin: 0 auto;
+        padding: 10px;
+        max-width: 900px;
+      }
+
+      /* NAVBAR TEXT */
+      .bar span a {
+        color: white;
+        font-style: italic;
+        font-weight: 700;
+      }
+
+      /* H1 TAG */
+      div.h1 {
+        text-align: center;
+      }
+
+      /* HR TAG */
+      .hr {
+        color: chartreuse;
+      }
+
+      /* H2 TAG */
+      div.h2 {
+        color: black;
+      }
+
+      /* TABLE TAG */
+      .table,
+      .table th,
+      .table td {
+        margin: auto;
+        padding: 10px;
+        width: 80%;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      thead {
+        background-color: violet;
+        color: white;
+      }
+
+      tfoot {
+        background-color: wheat;
+      }
+
+      /* IMAGE PROFILE TAG */
+      .profile {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        border: solid;
+        border-color: slategray;
+      }
+
+      /* IMAGE TAG */
+      div.img {
+        border: solid;
+        border-color: chocolate;
+        background-color: chocolate;
+        text-align: center;
+        margin-top: 30px;
+        margin: auto;
+        width: 105px;
+      }
+
+      /* PARAGRAPH TAG */
+      div.para {
+        text-align: center;
+        font-size: small;
+      }
+
+      /* BACK TO TOP BTN */
+      div.topbtn {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body id="top">
+    <div class="container">
+      <div class="bar">
+        <span><a href="index.html">Home</a></span>
+        <span><a href="about.html">About & Skills</a></span>
+        <span><a href="contact.html">Contact</a></span>
+      </div>
+      <div class="h1">
+        <h1>About Me and My Skills</h1>
+      </div>
+      <hr class="hr" />
+      <div class="h2">
+        <h2>A Bit More About Me</h2>
+      </div>
+      <hr class="hr" />
+      <p>
+        I enjoy <b>building things</b> and i am <i>always curious</i> about how
+        websites work. I believe in <u>consistent pratice</u> over rushing
+        through topics, and I try to stay <mark>focused</mark> on one concpet at
+        a time.
+        <br />
+        <br />
+        <small>(This paragraph uses small text just to show the tag.)</small>
+        <br />
+        <br />
+        Fun fact: Water is H<sub>2</sub>O and my favourite equation from school
+        is x<sup>2</sup> + y<sup>2</sup> = z<sup>2</sup>
+        <br />
+        <br />
+        My confidence level before this course: <del>Beginner</del> My
+        confidence level now: <u>Improving Every Day</u>
+      </p>
+      <div class="h2">
+        <h2>My Skills</h2>
+      </div>
+      <hr class="hr" />
+      <table class="table">
+        <caption>
+          Skill Progress Tracker
+        </caption>
+        <thead>
+          <tr>
+            <th colspan="3">Current Learning Status</th>
+          </tr>
+          <tr>
+            <th>Skill</th>
+            <th>Level</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Strong</td>
+            <td>Comfortable</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Good</td>
+            <td>Praticing</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Beginner</td>
+            <td>Just Started</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <th>Total</th>
+          <th colspan="2">3 and counting</th>
+        </tfoot>
+      </table>
+      <div class="h2">
+        <h2>Education</h2>
+      </div>
+      <hr class="hr" />
+      <dl>
+        <dt><strong>Degree</strong></dt>
+        <dd>B.S.C in Data Science and A.I</dd>
+      </dl>
+      <dl>
+        <dt><strong>HTML</strong></dt>
+        <dd>HyperText Markup Language</dd>
+      </dl>
+      <dl>
+        <dt><strong>CSS</strong></dt>
+        <dd>Cascading Style Sheets</dd>
+      </dl>
+      <div class="h2">
+        <h2>Featured Pratice Work</h2>
+      </div>
+      <hr class="hr" />
+      <div class="img">
+        <img class="profile" src="images.png" alt="google png" />
+      </div>
+      <div class="para">
+        <p>A sample icon used while Praticing image tags.</p>
+      </div>
+      <div class="topbtn">
+        <a href="#top">Back to Top</a>
+      </div>
+      <div class="para">
+        <p><u>Always learning, always building.</u></p>
+      </div>
+    </div>
+  </body>
+</html>
